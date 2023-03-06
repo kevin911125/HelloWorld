@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="開始" Content="開始" HorizontalAlignment="Left" Margin="428,154,0,0" VerticalAlignment="Top" Height="90" Width="157" Foreground="#FFC13737" Background="#FF204994"/>
+        <Button x:Name="btngo" Content="btngo" HorizontalAlignment="Left" Margin="428,154,0,0" VerticalAlignment="Top" Height="90" Width="157" Foreground="#FFC13737" Background="#FF204994" Click="Button_Click"/>
         <TextBox x:Name="txtShow" HorizontalAlignment="Left" Margin="164,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172" Height="94" RenderTransformOrigin="0.5,0.5" BorderBrush="#FFB3ADAB" Foreground="#FFA62B2B">
             <TextBox.RenderTransform>
                 <TransformGroup>

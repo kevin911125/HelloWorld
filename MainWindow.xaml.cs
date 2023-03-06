@@ -24,5 +24,15 @@ namespace HelloWorld
         {
             InitializeComponent();
         }
+
+
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            txtShow.Text = "Hello World!"; //你可以直接複製貼過去
+        }
+
+       
     }
 }
+
